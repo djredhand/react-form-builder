@@ -102,7 +102,7 @@ export default class FormElementsEdit extends React.Component {
     if (this.state.dirty) {
       this.props.element.dirty = true;
     }
-
+    window.elm_props = this.props;
     const this_checked = this.props.element.hasOwnProperty('required') ? this.props.element.required : false;
     const this_read_only = this.props.element.hasOwnProperty('readOnly') ? this.props.element.readOnly : false;
     const this_default_today = this.props.element.hasOwnProperty('defaultToday') ? this.props.element.defaultToday : false;
