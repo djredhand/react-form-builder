@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 
 import './scss/application.scss';
 import DemoBar from './demobar';
-import * as serviceWorker from './serviceWorker';
 import * as variables from './variables';
 
 import Loadable from 'react-loadable';
